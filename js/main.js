@@ -291,12 +291,5 @@ AOS.init({
 
     $('.appointment_time').timepicker();
 
-    $('.home-slider').owlCarousel({
-        items: 1,
-        loop: true,
-        touchDrag: false, // Tắt vuốt ngang
-        pullDrag: false  // Ngăn chặn Owl chặn cuộn dọc
-    });
-
 })(jQuery);
 
