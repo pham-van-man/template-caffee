@@ -12958,3 +12958,11 @@ textarea.form-control {
 .overlay {
     pointer-events: none;
 }
+
+body, html {
+    overflow: auto !important; /* Đảm bảo trang có thể cuộn */
+}
+
+.home-slider {
+    overflow: visible !important;
+}
