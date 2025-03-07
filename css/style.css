@@ -10559,6 +10559,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     background: #000;
     opacity: .3;
+    pointer-events: none;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
@@ -11853,10 +11854,10 @@ textarea.form-control {
     border: 2px solid #000;
 }
 
-/*.ftco-animate {*/
-/*    opacity: 0;*/
-/*    visibility: hidden;*/
-/*}*/
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
 
 .bg-primary {
     background: #c49b63 !important;
@@ -12953,16 +12954,4 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
-}
-
-.overlay {
-    pointer-events: none;
-}
-
-body, html {
-    overflow: auto !important; /* Đảm bảo trang có thể cuộn */
-}
-
-.home-slider {
-    overflow: visible !important;
 }
